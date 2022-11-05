@@ -2,9 +2,12 @@
 `python` 의 `sqlalchemy` 라이브러리를 사용하여 \
 Database Connection Pool 을 구현한 wrapper 패키지입니다.
 - DataSource
-  > Database 와 통신할 수 있는 
+  > Database 와 통신하기 위해 Database Connection Pool 을 관리합니다. \
+    Pool 로부터 연결을 취득하거나 \
+    더 이상 사용할 일이 없는 연결을 Pool 로 반환하는 역할을 수행합니다.
 - SqlSession 
   > DataSource 로부터 session 을 받고 해당 session 객체를 사용하여 Database 와 통신합니다.
+
 # Simple Usage
 ```python
 import atexit
