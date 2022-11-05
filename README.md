@@ -1,4 +1,4 @@
-# About SQLAlchemy
+# About SQLAlchemist
 `python` 의 `sqlalchemy` 라이브러리를 사용하여 \
 Database Connection Pool 을 구현한 wrapper 패키지입니다.
 - DataSource
